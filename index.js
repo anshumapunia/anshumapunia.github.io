@@ -1,7 +1,7 @@
 // resume button
 
-let resume1=document.getElementById("resumelink-1").addEventListener("click",opendrive);
-let resume2=document.getElementById("resume-link-2").addEventListener("click",opendrive);
+// let resume1=document.getElementById("resumelink-1").addEventListener("click",opendrive);
+// let resume2=document.getElementById("resume-link-2").addEventListener("click",opendrive);
 
 function opendrive(){
     window.open(
