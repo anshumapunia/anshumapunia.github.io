@@ -152,7 +152,7 @@ body
    border: 2px solid rgb(116, 199, 143);  
   }
   #resume-button-2:hover a{
-    color:lightsalmon
+    color:rgb(116, 199, 143);
   }
   .typing{
     color:rgb(116, 199, 143);
@@ -181,45 +181,36 @@ body
   
 
   /*---------------------------------------About Section-------------------------------------*/
- 
-  .about.section
-  {
-   text-align: center;
-   width: 80%;
-   margin: auto;
-   padding: 30px 0px;
-
-  }
-  #about.about.section
-  {
-     text-align: center;
+  .hero{
+    text-align: center;
+    width:80%;
+    margin:auto;
+    padding: 30px 0px;
+  
   }
   .hero img{
-    display: block;
-    margin: auto;
-    height: 300px;
-    width:300px;
-    border-radius: 20%;
-    margin-top: 40px;
-    margin-bottom: 30px;
+   display: block;
+   margin: auto;
+   height:250px;
+   width:250px;
+   border-radius: 20%;
+   margin-top: 40px;
+   margin-bottom: 30px;
+   /* border:3px solid turquoise; */
   }
-  .section h1
-  {
-    font-size: 43px;
+  article h1{
+    font-size: 50px;
     padding-top: 60px;
     font-weight: 500;
-    color: rgb(116, 199, 143);
+    color:rgb(116, 199, 143);
   }
-  .section h1::after
-  {
+  article h1::after{
     content:"";
     height:3px;
     width:225px;
-    background-color: rgb(116, 199, 143);
-    display: block;
-    margin: auto;
-    /* margin-right: 100px; */
-  
+   background-color: rgb(116, 199, 143);
+   display: block;
+   margin: auto;
   }
   content{
     font-size: 17px;
@@ -228,6 +219,8 @@ body
     font-size: 20px;
     font-weight: 20px;
   }
+  
+
 
   /*-----------------------------------SKILLS-------------------------------*/
   #skills h1, #projects h1, #contact h2
