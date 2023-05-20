@@ -225,7 +225,7 @@ body
   }
 
   /*-----------------------------------SKILLS-------------------------------*/
-  #skills h1, #project h1, #contact h2
+  #skills h1, #projects h1, #contact h2
   {
     text-align: center;
     padding-top: 80px;
@@ -390,7 +390,7 @@ color:rgb(116, 199, 143);;
   height: 680px;
   
 }
-#project >span{
+#projects >span{
   display: block;
   height: 3px;
   width: 170px;
