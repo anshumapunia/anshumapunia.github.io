@@ -181,17 +181,18 @@ body
   
 
   /*---------------------------------------About Section-------------------------------------*/
-  #about .about .section
-  {
-     text-align: center;
-  }
-  .about
+ 
+  .about section
   {
    text-align: center;
    width: 80%;
    margin: auto;
    padding: 30px 0px;
 
+  }
+  #about.about section
+  {
+     text-align: center;
   }
   .hero img{
     display: block;
