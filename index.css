@@ -181,11 +181,11 @@ body
   
 
   /*---------------------------------------About Section-------------------------------------*/
-  #about.about.section
+  #about .about .section
   {
      text-align: center;
   }
-  .about section
+  .about
   {
    text-align: center;
    width: 80%;
