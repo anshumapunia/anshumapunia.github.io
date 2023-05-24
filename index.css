@@ -162,23 +162,23 @@ body
     opacity: 0.5;
   }
   
-  @keyframes fade-inout{
-    0%
-    {
-      opacity:1
-    }
-    100%
-    {
-      opacity:0;
-    }
-  }
 
   .fade-in-fade-out
   {
-    animation: fade-inout 5s infinite alternate;
-    font-size: 5em;
+    animation: fade-inout 3s infinite;
+    /* font-size: 5em; */
   }
-  
+    @keyframes fade-inout {
+      0% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
 
   /*---------------------------------------About Section-------------------------------------*/
   .hero{
