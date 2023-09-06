@@ -812,3 +812,13 @@ color:rgb(116, 199, 143);;
   background-color: lightslategray ;
   color:#010d1d
 }
+@media all and (max-width: 600px) {
+  #nav-menu {
+    position: static;
+  }
+
+  .nav-list li a {
+    margin: 10px 0;
+    display: block;
+  }
+}
