@@ -102,7 +102,7 @@ body
     margin-top: 170px;
     /* margin-right: 100px; */
    
-    border-radius: 50%;
+    border-radius: 20px;
     height: 350px;
   
   }
@@ -183,7 +183,7 @@ body
   /*---------------------------------------About Section-------------------------------------*/
   /* #About
   {
-    border: 1px solid ;
+    border: 2px solid red ;
   } */
   .hero{
     text-align: center;
