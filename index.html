@@ -258,10 +258,10 @@
     </div>
 
     <script>
-        GitHubCalendar(".calendar", "rodeo12");
+        GitHubCalendar(".calendar", "anshumapunia");
         // // or enable responsive functionality
-        GitHubCalendar(".calendar", "rodeo12", { responsive: true });
-        fetch("https://api.github.com/users/rodeo12/events")
+        GitHubCalendar(".calendar", "anshumapunia", { responsive: true });
+        fetch("https://api.github.com/users/anshumapunia/events")
         .then((response) => response.json())
         .then((data) => {
             const privateCommits = data.filter((event) => event.type === "PushEvent");
@@ -273,7 +273,7 @@
             }));
 
             // Display the private repository commits on the calendar
-            GitHubCalendar(".calendar", "rodeo12", { data: privateCommitData });
+            GitHubCalendar(".calendar", "anshumapunia", { data: privateCommitData });
         })
         .catch((error) => {
             console.error("Error fetching commit data:", error);
@@ -285,17 +285,17 @@
     <div class="regular">
         <div class="git-card">
             <img id="github-streak-stats"
-                src="https://github-readme-streak-stats.herokuapp.com/?user=rodeo12&theme=shades-of-purple&hide_border=false"
+                src="https://github-readme-streak-stats.herokuapp.com/?user=anshumapunia&theme=shades-of-purple&hide_border=false"
                 alt="stat-card" />
         </div>
         <div class="git-card">
             <img id="github-top-langs"
-                src="https://github-readme-stats.vercel.app/api/top-langs/?username=rodeo12&theme=shades-of-purple&hide_border=false&include_all_commits=true&count_private=true&layout=compact"
+                src="https://github-readme-stats.vercel.app/api/top-langs/?username=anshumapunia&theme=shades-of-purple&hide_border=false&include_all_commits=true&count_private=true&layout=compact"
                 alt="aman1722" />
         </div>
         <div class="git-card">
             <img id="github-stats-card"
-                src="https://github-readme-stats.vercel.app/api?username=rodeo12&theme=shades-of-purple&hide_border=false&include_all_commits=true&count_private=true"
+                src="https://github-readme-stats.vercel.app/api?username=anshumapunia&theme=shades-of-purple&hide_border=false&include_all_commits=true&count_private=true"
                 alt="top-languages" />
         </div>
     </div>
