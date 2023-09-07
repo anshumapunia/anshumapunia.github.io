@@ -478,6 +478,19 @@ color:rgb(116, 199, 143);;
   width:90%;
  color:rgb(116, 199, 143);
 }
+.regular {
+  width: 85%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  /* border: 3px solid red; */
+}
+
+.regular .git-card img {
+  width: 100%;
+  height: 100%;
+  /* border: 5px solid black; */
+}
 
 /*-----------------------------------Contacts-------------------------------*/
 .contact-content {
