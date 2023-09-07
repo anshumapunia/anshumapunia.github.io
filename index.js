@@ -21,11 +21,10 @@ function downloadResume() {
 
 document.getElementById("resume-button-1").addEventListener("click", downloadResume);
 
-
-function downloadResume() {
+function downloadResume1() {
   var resumeLink = document.getElementById("resume-link-2");
   var resumePDF = resumeLink.href;
   window.open(resumePDF, "_blank");
 }
 
-document.getElementById("resume-button-2").addEventListener("click", downloadResume);
+document.getElementById("resume-button-2").addEventListener("click", downloadResume1);

@@ -24,8 +24,10 @@ body, ul {
   background:  rgb(116, 199, 143);
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
+  align-items:end;
+  padding: 20px 20px;
+  position:fixed;
+  width:100%;
 }
 
 .logo a {
@@ -126,6 +128,8 @@ body, ul {
 
 
   /*----------------------------------------------Home Section-------------------------------------*/
+ 
+
   #main{
     display: flex;
     gap: 100px;
@@ -144,7 +148,7 @@ body, ul {
     margin-top: 170px;
     /* margin-right: 100px; */
    
-    border-radius: 20px;
+    border-radius: 50px;
     height: 350px;
   
   }
