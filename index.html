@@ -246,60 +246,46 @@
 
 <!------------------------------github--------------------------------->
 <section class="react-activity-calendar">
-    <div class="max-width">
-        <h2 class="title">My GitHub Contribution</h2>
+    <h1>GitHub</h1>
+    <span></span>
     </div>
+</section>
+<section id="gitcal">
     <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+
     <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
 
     <!-- Prepare a container for your calendar. -->
     <div class="calendar">
-         Loading...
+        <!-- Loading stuff -->
+        Loading the data just for you.
     </div>
 
     <script>
         GitHubCalendar(".calendar", "anshumapunia");
-        // // or enable responsive functionality
+        // or enable responsive functionality
         GitHubCalendar(".calendar", "anshumapunia", { responsive: true });
-        fetch("https://api.github.com/users/anshumapunia/events")
-        .then((response) => response.json())
-        .then((data) => {
-            const privateCommits = data.filter((event) => event.type === "PushEvent");
-
-            // Convert the commit data to the required format for GitHubCalendar library
-            const privateCommitData = privateCommits.map((commit) => ({
-                date: commit.created_at,
-                count: commit.payload.commits.length
-            }));
-
-            // Display the private repository commits on the calendar
-            GitHubCalendar(".calendar", "anshumapunia", { data: privateCommitData });
-        })
-        .catch((error) => {
-            console.error("Error fetching commit data:", error);
-        });
     </script>
 
-    <br><br><br><br>
 
-    <div class="regular">
-        <div class="git-card">
-            <img id="github-streak-stats"
-                src="https://github-readme-streak-stats.herokuapp.com/?user=anshumapunia&theme=shades-of-purple&hide_border=false"
-                alt="stat-card" />
-        </div>
-        <div class="git-card">
-            <img id="github-top-langs"
-                src="https://github-readme-stats.vercel.app/api/top-langs/?username=anshumapunia&theme=shades-of-purple&hide_border=false&include_all_commits=true&count_private=true&layout=compact"
-                alt="aman1722" />
-        </div>
-        <div class="git-card">
-            <img id="github-stats-card"
-                src="https://github-readme-stats.vercel.app/api?username=anshumapunia&theme=shades-of-purple&hide_border=false&include_all_commits=true&count_private=true"
-                alt="top-languages" />
-        </div>
+<div class="regular">
+    <div class="git-card">
+        <img id="github-streak-stats"
+            src="https://github-readme-streak-stats.herokuapp.com/?user=anshumapunia&theme=shades-of-purple&hide_border=false"
+            alt="stat-card" />
     </div>
-</section>
+    <div class="git-card">
+        <img id="github-top-langs"
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=anshumapunia&theme=shades-of-purple&hide_border=false&include_all_commits=true&count_private=true&layout=compact"
+            alt="aman1722" />
+    </div>
+    <div class="git-card">
+        <img id="github-stats-card"
+            src="https://github-readme-stats.vercel.app/api?username=anshumapunia&theme=shades-of-purple&hide_border=false&include_all_commits=true&count_private=true"
+            alt="top-languages" />
+    </div>
+</div>
+</section> 
 
   <!-------------------- CONTACTS ---------------------->
 
