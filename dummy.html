@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Download Resume</title>
+<style>
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.resume {
+  background-color: #2196F3;
+  color: white;
+}
+</style>
+</head>
+<body>
+<div class="nav-list">
+<ul>
+  <li id="resume-button-1">
+                    <a class="nav-link resume" id="resume-link-1" href="Anshuma_Devi_Resume.pdf" download target="_blank">RESUME</a>
+                </li>
+            </ul>     
+        </div>
+<script>
+function downloadResume() {
+  var resumeLink = document.getElementById("resume-link-1");
+  var resumePDF = resumeLink.href;
+  window.open(resumePDF, "_blank");
+}
+
+document.getElementById("resume-button-1").addEventListener("click", downloadResume);
+</script>
+</body>
+</html>
