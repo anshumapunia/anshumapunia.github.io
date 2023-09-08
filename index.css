@@ -235,17 +235,17 @@ body, ul {
   {
     border: 2px solid red ;
   } */
-.about
+/* .about
 {
   padding: 40px 0;
-}
+} */
 
   #about.about.section {
     /* background-color: #f8f8f8;  */
      
     text-align: center;
 }
-  .hero{
+  .about{
     text-align: center;
     width:80%;
     margin:auto;
@@ -253,7 +253,7 @@ body, ul {
   
   }
   
-  .hero img{
+  .about img{
    display: block;
    margin: auto;
    height:250px;
