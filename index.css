@@ -235,10 +235,14 @@ body, ul {
   {
     border: 2px solid red ;
   } */
+.about
+{
+  padding: 40px 0;
+}
 
-  #about.about {
+  #about.about.section {
     /* background-color: #f8f8f8;  */
-    padding: 40px 0; 
+     
     text-align: center;
 }
   .hero{
