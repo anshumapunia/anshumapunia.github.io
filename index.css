@@ -24,7 +24,7 @@ body, ul {
   background:  rgb(116, 199, 143);
   display: flex;
   justify-content: space-between;
-  align-items:end;
+  align-items:center;
   padding: 20px 20px;
   /* position:fixed;
   width:100%; */
