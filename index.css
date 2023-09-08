@@ -240,10 +240,11 @@ body, ul {
   padding: 40px 0;
 } */
 
-  #about.about.section {
+  #about{
     /* background-color: #f8f8f8;  */
      
     text-align: center;
+    padding: 40px 0;
 }
   .about{
     text-align: center;
@@ -252,8 +253,12 @@ body, ul {
     padding: 30px 0px;
   
   }
+  /* .section
+  {
   
-  .about img{
+  } */
+  
+  .section img{
    display: block;
    margin: auto;
    height:250px;
