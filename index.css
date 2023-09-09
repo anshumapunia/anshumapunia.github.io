@@ -176,7 +176,7 @@ Hamburger menu styles
       {
         color: white;
       }
-      
+
       
       .navbar a {
         float: left;
@@ -202,7 +202,17 @@ Hamburger menu styles
       .navbar .icon {
         display: none;
       }
-      
+      .nav-link {
+        /* padding: 10px 20px; */
+        /* width: 100%; */
+        text-align: center; 
+        /* position: absolute; */
+    }
+      .nav-link .resume
+      {
+        color: white;
+      }
+
       @media screen and (max-width: 600px) {
         .navbar  a:not(:first-child) {display: none;}
         /* .navbar .second a:not(:nth-child(1-7)) {display:none;} */
