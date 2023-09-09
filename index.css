@@ -172,6 +172,11 @@ Hamburger menu styles
         position: fixed;
         width: 100%;
       }
+      #resume-button-1
+      {
+        color: white;
+      }
+      
       
       .navbar a {
         float: left;
