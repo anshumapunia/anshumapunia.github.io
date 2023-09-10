@@ -166,7 +166,6 @@ Hamburger menu styles
         overflow: hidden;
         background-color: rgb(26, 25, 36);
         justify-content: space-between;
-        /* width: 100%; */
         display: flex;
         /* align-items:flex-end; */
         position: fixed;
@@ -912,16 +911,23 @@ color:rgb(116, 199, 143);;
   .skill-box{
       display: grid;
       width:70%;
-      grid-template-columns: repeat(1,1fr);
+      grid-template-columns: repeat(2,1fr);
       /* margin-left: -5px; */
   } 
   .toolls-box{
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(2,1fr);
   }
   .project-card{
       width:85%;
       margin-left: 20px;
+  }
+  .regular{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 10px;
+    gap: 20px;
+   
   }
  
 }
