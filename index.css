@@ -11,6 +11,8 @@
 body
 {
     background-color:rgb(26, 25, 36);
+    position:relative ;
+    top:0px;
 }
 
 /*----------------------navbar start----------------*/
@@ -798,3 +800,5 @@ color:rgb(116, 199, 143);;
   background-color: lightslategray ;
   color:#010d1d
 }
+
+
