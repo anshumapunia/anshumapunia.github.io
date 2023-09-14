@@ -29,12 +29,12 @@ html {
 {
   margin-top: 600px;
 } */
-/* .git-box {
+.git-box {
   display: flex;
   justify-content: center;
   align-items: center;
 
-} */
+}
 .git-box img{
   width: 100%;
 }
@@ -823,7 +823,7 @@ footer span a:hover {
 
   #nav-menu {
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
   }
   #home
   {
