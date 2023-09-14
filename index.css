@@ -41,12 +41,13 @@ section {
 }
 .max-width {
   max-width: 1300px;
-  padding: 0 80px;
+  padding: 0 40px;
   margin: auto;
 }
 #about,
 .services,
 #skills,
+#toolls,        
 #projects,
 .contact,
 footer {
@@ -55,6 +56,7 @@ footer {
 #about .about-content,
 .services .serv-content,
 #skills .skills-content,
+#toolls .toolls-content,
 .contact .contact-content {
   display: flex;
   flex-wrap: wrap;
@@ -85,7 +87,7 @@ section .title::after {
   bottom: -8px;
   left: 50%;
   font-size: 20px;
-  color: crimson;
+  color: rgb(4, 170, 109);
   padding: 0 5px;
   background: #fff;
   transform: translateX(-50%);
@@ -106,6 +108,7 @@ section .title::after {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
 }
 #nav-menu .logo a {
   color: #fff;
@@ -113,7 +116,7 @@ section .title::after {
   font-weight: 600;
 }
 #nav-menu .logo a span {
-  color: crimson;
+  color: rgb(4, 170, 109);
   transition: all 0.3s ease;
 }
 #nav-menu.sticky .logo a span {
@@ -132,7 +135,7 @@ section .title::after {
   transition: color 0.3s ease;
 }
 #nav-menu .menu li a:hover {
-  color: crimson;
+  color: rgb(4, 170, 109);
 }
 #nav-menu.sticky .menu li a:hover {
   color: #fff;
@@ -166,7 +169,7 @@ section .title::after {
   position: fixed;
   height: 45px;
   width: 42px;
-  background: crimson;
+  background: rgb(4, 170, 109);
   right: 30px;
   bottom: 10px;
   text-align: center;
@@ -222,23 +225,23 @@ section .title::after {
   margin: 5px 0;
 }
 #home .home-content .text-3 span {
-  color: crimson;
+  color: rgb(4, 170, 109);
   font-weight: 500;
 }
 #home .home-content a {
   display: inline-block;
-  background: crimson;
+  background: rgb(4, 170, 109);
   color: #fff;
   font-size: 25px;
   padding: 12px 36px;
   margin-top: 20px;
   font-weight: 400;
   border-radius: 6px;
-  border: 2px solid crimson;
+  border: 2px solid rgb(4, 170, 109);
   transition: all 0.3s ease;
 }
 #home .home-content a:hover {
-  color: crimson;
+  color: rgb(4, 170, 109);
   background: none;
 }
 
@@ -264,25 +267,25 @@ section .title::after {
   margin-bottom: 10px;
 }
 #about .about-content .right .text span {
-  color: crimson;
+  color: rgb(4, 170, 109);
 }
 #about .about-content .right p {
   text-align: justify;
 }
 #about .about-content .right a {
   display: inline-block;
-  background: crimson;
+  background: rgb(4, 170, 109);
   color: #fff;
   font-size: 20px;
   font-weight: 500;
   padding: 10px 30px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 2px solid crimson;
+  border: 2px solid rgb(4, 170, 109);
   transition: all 0.3s ease;
 }
 #about .about-content .right a:hover {
-  color: crimson;
+  color: rgb(4, 170, 109);
   background: none;
 }
 
@@ -311,7 +314,7 @@ section .title::after {
   transition: all 0.3s ease;
 }
 .services .serv-content .card:hover {
-  background: crimson;
+  background: rgb(4, 170, 109);
 }
 .services .serv-content .card .box {
   transition: all 0.3s ease;
@@ -321,7 +324,7 @@ section .title::after {
 }
 .services .serv-content .card i {
   font-size: 50px;
-  color: crimson;
+  color: rgb(4, 170, 109);
   transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i {
@@ -371,18 +374,18 @@ section .title::after {
 }
 #skills .skills-content .left a {
   display: inline-block;
-  background: crimson;
+  background: rgb(4, 170, 109);
   color: #fff;
   font-size: 18px;
   font-weight: 500;
   padding: 8px 16px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 2px solid crimson;
+  border: 2px solid rgb(4, 170, 109);
   transition: all 0.3s ease;
 }
 #skills .skills-content .left a:hover {
-  color: crimson;
+  color: rgb(4, 170, 109);
   background: none;
 }
 #skills .skills-content .right .bars {
@@ -410,7 +413,7 @@ section .title::after {
   height: 100%;
   left: 0;
   top: 0;
-  background: crimson;
+  background: rgb(4, 170, 109);
 }
 .skills-content .right .html::before {
   width: 90%;
@@ -433,104 +436,113 @@ section .title::after {
 
 }
 
+
 /* toolls section */
-/* 
+
+#toolls .toolls-content{
+  display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+}
+      
 .toolls-card-img{
-  height: 160px;
-  width: 170px;
-  border-radius: 5%;
-  padding: 1.1em;
-  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
-    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
-  transition: all 0.3s ease;
+height: 160px;
+width: 170px;
+border-radius: 5%;
+padding: 1.1em;
+box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+  rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+transition: all 0.3s ease;
 }
 .toolls .title::after {
-  content: "what i know";
+content: "what i know";
 }
 
 #toolls .title::after {
-  content: "what i know";
+content: "what i know";
 }
 
 /* toolls right column */
 #toolls .toolls-content .column {
-  width: calc(50% - 30px);
-  /* border: 2px solid black; */
-  height: 60vh;
-  display: grid;
-  grid-template-columns: repeat(2, 2fr);
+width: calc(50% - 30px);
+/* border: 2px solid black; */
+height: 60vh;
+display: grid;
+grid-template-columns: repeat(2, 2fr);
 }
 #toolls .toolls-content .left .text {
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 10px;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 10px;
 }
 #toolls .toolls-content .left p {
-  text-align: justify;
+text-align: justify;
 }
 #toolls .toolls-content .left a {
-  display: inline-block;
-  background: crimson;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 500;
-  padding: 8px 16px;
-  margin-top: 20px;
-  border-radius: 6px;
-  border: 2px solid crimson;
-  transition: all 0.3s ease;
+display: inline-block;
+background: rgb(4, 170, 109);
+color: #fff;
+font-size: 18px;
+font-weight: 500;
+padding: 8px 16px;
+margin-top: 20px;
+border-radius: 6px;
+border: 2px solid crgb(4, 170, 109);
+transition: all 0.3s ease;
 }
 #toolls .toolls-content .left a:hover {
-  color: crimson;
-  background: none;
+color: crgb(4, 170, 109);
+background: none;
 }
 #toolls .toolls-content .right .bars {
-  margin-bottom: 15px;
+margin-bottom: 15px;
 }
 #toolls .toolls-content .right .info {
-  display: flex;
-  margin-bottom: 5px;
-  align-items: center;
-  justify-content: space-between;
+display: flex;
+margin-bottom: 5px;
+align-items: center;
+justify-content: space-between;
 }
 #toolls .toolls-content .right span {
-  font-weight: 500;
-  font-size: 18px;
+font-weight: 500;
+font-size: 18px;
 }
 #toolls .toolls-content .right .line {
-  height: 5px;
-  width: 100%;
-  background: lightgrey;
-  position: relative;
+height: 5px;
+width: 100%;
+background: lightgrey;
+position: relative;
 }
 #toolls .toolls-content .right .line::before {
-  content: "";
-  position: absolute;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background: crimson;
+content: "";
+position: absolute;
+height: 100%;
+left: 0;
+top: 0;
+background: crgb(4, 170, 109);
 }
 .toolls-content .right .html::before {
-  width: 90%;
+width: 90%;
 }
 .toolls-content .right .css::before {
-  width: 60%;
+width: 60%;
 }
 .toolls-content .right .js::before {
-  width: 80%;
+width: 80%;
 }
 .toolls-content .right .php::before {
-  width: 50%;
+width: 50%;
 }
 .toolls-content .right .mysql::before {
-  width: 70%;
+width: 70%;
 }
 .toolls-card-name{
- align-items: center;
- font-size: 20px;
+align-items: center;
+font-size: 20px;
 
-} */
+}
+
 
 /* project section styling */
 #projects .title::after {
@@ -545,7 +557,7 @@ section .title::after {
   transition: all 0.3s ease;
 }
 #projects .carousel .project-card:hover {
-  background: crimson;
+  background: rgb(4, 170, 109);
 }
 
 #projects .carousel .project-card .text {
@@ -591,7 +603,7 @@ section .title::after {
   height: 300px;
   object-fit: cover;
   border-radius: 5%;
-  border: 5px solid crimson;
+  border: 5px solid rgb(4, 170, 109);
   transition: all 0.3s ease;
   align-items: center;
 }
@@ -608,7 +620,7 @@ section .title::after {
   margin: 0 5px;
   outline: none !important;
   border-radius: 50%;
-  border: 2px solid crimson !important;
+  border: 2px solid rgb(4, 170, 109) !important;
   transition: all 0.3s ease;
 }
 .owl-dot.active {
@@ -617,7 +629,7 @@ section .title::after {
 }
 .owl-dot.active,
 .owl-dot:hover {
-  background: crimson !important;
+  background: rgb(4, 170, 109) !important;
 }
 
 /* contact section styling */
@@ -648,7 +660,7 @@ section .title::after {
 }
 .contact .contact-content .row i {
   font-size: 25px;
-  color: crimson;
+  color: rgb(4, 170, 109);
 }
 .contact .contact-content .info .head {
   font-weight: 500;
@@ -715,12 +727,12 @@ section .title::after {
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background: crimson;
-  border: 2px solid crimson;
+  background: rgb(4, 170, 109);
+  border: 2px solid crgb(4, 170, 109);
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover {
-  color: crimson;
+  color: rgb(4, 170, 109);
   background: none;
 }
 /* footer section styling */
@@ -731,7 +743,7 @@ footer {
   text-align: center;
 }
 footer span a {
-  color: crimson;
+  color: crgb(4, 170, 109);
   text-decoration: none;
 }
 footer span a:hover {
