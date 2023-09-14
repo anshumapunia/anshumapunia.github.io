@@ -362,7 +362,7 @@ section .title::after {
   /* border: 2px solid black; */
   height: 60vh;
   display: grid;
-  grid-template-columns: repeat(2, 2fr);
+  grid-template-columns: repeat(3, 2fr);
 }
 #skills .skills-content .left .text {
   font-size: 20px;
@@ -469,7 +469,7 @@ width: calc(50% - 30px);
 /* border: 2px solid black; */
 height: 60vh;
 display: grid;
-grid-template-columns: repeat(2, 2fr);
+grid-template-columns: repeat(3, 2fr);
 }
 #toolls .toolls-content .left .text {
 font-size: 20px;
