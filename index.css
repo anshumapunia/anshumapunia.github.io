@@ -807,7 +807,7 @@ footer span a:hover {
   }
   #nav-menu {
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
   }
   #home
   {
@@ -897,7 +897,7 @@ footer span a:hover {
 @media (max-width: 690px) {
   #nav-menu {
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
   }
   #home
   {
@@ -945,7 +945,7 @@ footer span a:hover {
 @media (max-width: 500px) {
   #nav-menu {
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
   }
   #home
   {
