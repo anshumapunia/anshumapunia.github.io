@@ -249,12 +249,14 @@ section .title::after {
 /* about section styling */
 #about .title::after {
   content: "who i am";
+
 }
-#about .about-content .left {
-  width: 45%;
-}
+
+/* #about .about-content .left {
+  width: 70%;
+} */
 #about .about-content .left img {
-  height: 400px;
+  height: 470px;
   width: 400px;
   object-fit: cover;
   border-radius: 6px;
@@ -266,6 +268,7 @@ section .title::after {
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 10px;
+  /* display: flex; */
 }
 #about .about-content .right .text span {
   color: crimson;
